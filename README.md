@@ -5,8 +5,9 @@ Test your knowledge about **Garten of Banban**, **Poppy Playtime**, and **Five N
 ## Features
 
 - **7 Progressive Levels** - Start easy, get harder
-- **48 Total Questions** - All about your favorite scary games
-- **30-Second Timer** - Keeps the game exciting
+- **60 Total Questions** - All about your favorite scary games
+- **Customizable Timer** - Choose from 15s to 2 minutes, or no timer
+- **Name Personalization** - Add your name or play in generic mode
 - **Skip System** - 3 skips per level if stuck
 - **Fun Facts** - Learn something new with every answer
 - **Score Tracking** - See how well you know these games
@@ -27,7 +28,8 @@ Test your knowledge about **Garten of Banban**, **Poppy Playtime**, and **Five N
 
 - 🏰 **Garten of Banban** - Banban, Jumbo Josh, Opila Bird, Sheriff Toadster, and more!
 - 🧸 **Poppy Playtime** - Huggy Wuggy, Mommy Long Legs, PJ Pug-a-Pillar, and friends!
-- 🐻 **Five Nights at Freddy's** - Freddy, Bonnie, Chica, Foxy, and the gang!
+- 🐻 **Five Nights at Freddy's** - Freddy, Bonnie, Chica, Foxy, the Mimic, and the gang!
+- 🐰 **Finding Frankie** - Frankie the host and the creepy game show mascots!
 
 ## How to Play
 

@@ -15,7 +15,7 @@ class ReadingQuiz {
         this.completedLevels = JSON.parse(localStorage.getItem('completedLevels')) || [];
         this.totalScore = parseInt(localStorage.getItem('totalScore')) || 0;
         this.totalQuestions = parseInt(localStorage.getItem('totalQuestions')) || 0;
-        this.playerName = localStorage.getItem('playerName') || 'Leo';
+        this.playerName = localStorage.getItem('playerName') || '';
         
         this.init();
     }
@@ -113,9 +113,9 @@ class ReadingQuiz {
         this.timerDuration = parseInt(timerSelect.value);
         localStorage.setItem('timerDuration', this.timerDuration);
         
-        // Save player name
+        // Save player name (empty string for generic mode)
         const nameInput = document.getElementById('player-name');
-        this.playerName = nameInput.value.trim() || 'Leo';
+        this.playerName = nameInput.value.trim();
         localStorage.setItem('playerName', this.playerName);
         
         this.updateTimerDisplay();
@@ -125,14 +125,40 @@ class ReadingQuiz {
     
     updatePlayerNameDisplays() {
         // Update all places where player name appears
+        // If no name, show generic text; if name exists, show personalized text
+        
         const titleDisplay = document.getElementById('player-name-display');
-        if (titleDisplay) titleDisplay.textContent = this.playerName;
+        const titleH2 = titleDisplay ? titleDisplay.closest('h2') : null;
+        if (titleH2) {
+            if (this.playerName) {
+                titleH2.innerHTML = `<span id="player-name-display">${this.playerName}</span>'s Adventure!`;
+            } else {
+                titleH2.textContent = 'How Much Do You Know?';
+            }
+        }
         
-        const levelCompleteDisplays = document.querySelectorAll('.player-name-level');
-        levelCompleteDisplays.forEach(el => el.textContent = this.playerName);
+        // Level complete
+        const levelCompleteH1 = document.querySelector('#level-complete h1');
+        if (levelCompleteH1) {
+            if (this.playerName) {
+                levelCompleteH1.innerHTML = `🎉 <span class="player-name-level">${this.playerName}</span> Completed the Level! 🎉`;
+            } else {
+                levelCompleteH1.innerHTML = `🎉 Level Complete! 🎉`;
+            }
+        }
         
-        const gameCompleteDisplays = document.querySelectorAll('.player-name-complete');
-        gameCompleteDisplays.forEach(el => el.textContent = this.playerName);
+        // Game complete
+        const gameCompleteH1 = document.querySelector('#game-complete h1');
+        const gameCompleteP = document.querySelector('#game-complete .congrats');
+        if (gameCompleteH1 && gameCompleteP) {
+            if (this.playerName) {
+                gameCompleteH1.innerHTML = `🏆 <span class="player-name-complete">${this.playerName}</span> is a Horror Hero! 🏆`;
+                gameCompleteP.innerHTML = `<span class="player-name-complete">${this.playerName}</span> completed all 7 levels!`;
+            } else {
+                gameCompleteH1.innerHTML = `🏆 You're a Horror Hero! 🏆`;
+                gameCompleteP.textContent = `You completed all 7 levels!`;
+            }
+        }
         
         // Update name input in settings
         const nameInput = document.getElementById('player-name');
