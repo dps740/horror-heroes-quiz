@@ -492,3 +492,60 @@ body {
         padding: 15px;
     }
 }
+
+/* Settings Screen */
+.settings-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.setting-option {
+    margin-bottom: 25px;
+}
+
+.setting-option label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timer-select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1.1rem;
+    border: 2px solid #764ba2;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timer-select:hover {
+    border-color: #f5576c;
+    box-shadow: 0 0 10px rgba(118, 75, 162, 0.3);
+}
+
+.timer-select:focus {
+    outline: none;
+    border-color: #f5576c;
+    box-shadow: 0 0 15px rgba(245, 87, 108, 0.4);
+}
+
+.setting-help {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 15px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+#settings-btn {
+    margin-top: 15px;
+}

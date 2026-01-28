@@ -8,7 +8,12 @@
         {
           "id": 1,
           "question": "What is the name of the blue monster with a long smile?",
-          "options": ["Huggy Wuggy", "Freddy", "Banban", "Mommy Long Legs"],
+          "options": [
+            "Huggy Wuggy",
+            "Freddy",
+            "Banban",
+            "Mommy Long Legs"
+          ],
           "correct": 0,
           "game": "Poppy Playtime",
           "fact": "Huggy Wuggy is the first monster you meet in Poppy Playtime! He's blue and VERY tall."
@@ -16,7 +21,12 @@
         {
           "id": 2,
           "question": "Which animatronic bear is the leader?",
-          "options": ["Bonnie", "Chica", "Freddy Fazbear", "Foxy"],
+          "options": [
+            "Bonnie",
+            "Chica",
+            "Freddy Fazbear",
+            "Foxy"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "Freddy Fazbear is the main animatronic and wears a black top hat and bow tie!"
@@ -24,7 +34,12 @@
         {
           "id": 3,
           "question": "What color is Banban?",
-          "options": ["Blue", "Red", "Purple", "Green"],
+          "options": [
+            "Blue",
+            "Red",
+            "Purple",
+            "Green"
+          ],
           "correct": 1,
           "game": "Garten of Banban",
           "fact": "Banban is red and is the main character of the Garten! He loves to give gifts."
@@ -32,7 +47,12 @@
         {
           "id": 4,
           "question": "Who is the pink spider monster?",
-          "options": ["Huggy Wuggy", "Mommy Long Legs", "Banban", "Chica"],
+          "options": [
+            "Huggy Wuggy",
+            "Mommy Long Legs",
+            "Banban",
+            "Chica"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Mommy Long Legs is pink and has VERY long arms and legs that can stretch!"
@@ -40,7 +60,12 @@
         {
           "id": 5,
           "question": "Which animatronic is a pirate?",
-          "options": ["Freddy", "Bonnie", "Chica", "Foxy"],
+          "options": [
+            "Freddy",
+            "Bonnie",
+            "Chica",
+            "Foxy"
+          ],
           "correct": 3,
           "game": "Five Nights at Freddy's",
           "fact": "Foxy is a pirate fox! He has an eye patch and says 'Yarr!' He lives in Pirate Cove."
@@ -48,7 +73,12 @@
         {
           "id": 6,
           "question": "What is the green dinosaur's name?",
-          "options": ["Jumbo Josh", "Sheriff Toadster", "Opila Bird", "Banban"],
+          "options": [
+            "Jumbo Josh",
+            "Sheriff Toadster",
+            "Opila Bird",
+            "Banban"
+          ],
           "correct": 0,
           "game": "Garten of Banban",
           "fact": "Jumbo Josh is a big green dinosaur who is VERY strong!"
@@ -56,7 +86,12 @@
         {
           "id": 7,
           "question": "Who is the yellow chicken animatronic?",
-          "options": ["Freddy", "Bonnie", "Chica", "Foxy"],
+          "options": [
+            "Freddy",
+            "Bonnie",
+            "Chica",
+            "Foxy"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "Chica is a yellow chicken who loves pizza! She carries a cupcake named Mr. Cupcake."
@@ -64,7 +99,12 @@
         {
           "id": 8,
           "question": "What kind of bird is Opila Bird?",
-          "options": ["A flamingo", "A parrot", "An ostrich-like bird", "A chicken"],
+          "options": [
+            "A flamingo",
+            "A parrot",
+            "An ostrich-like bird",
+            "A chicken"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "Opila Bird looks like a tall ostrich and has two heads - one red and one blue!"
@@ -79,7 +119,12 @@
         {
           "id": 9,
           "question": "What does Huggy Wuggy do in the vents?",
-          "options": ["He sleeps", "He chases you", "He sings", "He eats pizza"],
+          "options": [
+            "He sleeps",
+            "He chases you",
+            "He sings",
+            "He eats pizza"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Huggy Wuggy crawls through the vents to chase the player - it's super scary!"
@@ -87,7 +132,12 @@
         {
           "id": 10,
           "question": "What does Freddy Fazbear wear on his head?",
-          "options": ["A crown", "A top hat", "A baseball cap", "Nothing"],
+          "options": [
+            "A crown",
+            "A top hat",
+            "A baseball cap",
+            "Nothing"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "Freddy wears a black top hat and a black bow tie. He looks fancy!"
@@ -95,7 +145,12 @@
         {
           "id": 11,
           "question": "Where do you find the Garten characters?",
-          "options": ["In a pizzeria", "In a factory", "In a kindergarten", "In a house"],
+          "options": [
+            "In a pizzeria",
+            "In a factory",
+            "In a kindergarten",
+            "In a house"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "The Garten is an underground kindergarten where the mascots used to teach kids!"
@@ -103,7 +158,12 @@
         {
           "id": 12,
           "question": "What color is Bonnie the Bunny?",
-          "options": ["Red", "Blue", "Purple", "Yellow"],
+          "options": [
+            "Red",
+            "Blue",
+            "Purple",
+            "Yellow"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "Bonnie is a purple bunny who plays the guitar! He's usually the first to move at night."
@@ -111,7 +171,12 @@
         {
           "id": 13,
           "question": "What does Mommy Long Legs like to play?",
-          "options": ["Video games", "Musical chairs", "Games and puzzles", "Soccer"],
+          "options": [
+            "Video games",
+            "Musical chairs",
+            "Games and puzzles",
+            "Soccer"
+          ],
           "correct": 2,
           "game": "Poppy Playtime",
           "fact": "Mommy Long Legs LOVES games! But she gets very angry if you don't follow the rules."
@@ -119,7 +184,12 @@
         {
           "id": 14,
           "question": "What does Sheriff Toadster look like?",
-          "options": ["A frog with a sheriff hat", "A dinosaur", "A bird", "A bear"],
+          "options": [
+            "A frog with a sheriff hat",
+            "A dinosaur",
+            "A bird",
+            "A bear"
+          ],
           "correct": 0,
           "game": "Garten of Banban",
           "fact": "Sheriff Toadster is a green frog wearing a sheriff's hat and badge!"
@@ -127,7 +197,12 @@
         {
           "id": 15,
           "question": "Where do the FNAF animatronics perform?",
-          "options": ["At a school", "At Freddy Fazbear's Pizza", "At a park", "At a mall"],
+          "options": [
+            "At a school",
+            "At Freddy Fazbear's Pizza",
+            "At a park",
+            "At a mall"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "Freddy Fazbear's Pizza is a restaurant where kids have birthday parties and the animatronics sing and dance!"
@@ -135,7 +210,12 @@
         {
           "id": 16,
           "question": "What toy helps you in Poppy Playtime?",
-          "options": ["A toy car", "GrabPack hands", "A flashlight", "A teddy bear"],
+          "options": [
+            "A toy car",
+            "GrabPack hands",
+            "A flashlight",
+            "A teddy bear"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "The GrabPack has two hands on long wires that can grab things and solve puzzles!"
@@ -150,7 +230,12 @@
         {
           "id": 17,
           "question": "What is the factory called in Poppy Playtime?",
-          "options": ["Playtime Co.", "Freddy's Factory", "The Garten", "Fun House"],
+          "options": [
+            "Playtime Co.",
+            "Freddy's Factory",
+            "The Garten",
+            "Fun House"
+          ],
           "correct": 0,
           "game": "Poppy Playtime",
           "fact": "Playtime Co. made toys for kids, but something went very wrong and everyone disappeared!"
@@ -158,7 +243,12 @@
         {
           "id": 18,
           "question": "What room does Foxy stay in?",
-          "options": ["Main Stage", "Kitchen", "Pirate Cove", "Office"],
+          "options": [
+            "Main Stage",
+            "Kitchen",
+            "Pirate Cove",
+            "Office"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "Foxy hides behind the curtain in Pirate Cove. If you don't check on him, he'll run to your office!"
@@ -166,7 +256,12 @@
         {
           "id": 19,
           "question": "How many floors does the Garten have?",
-          "options": ["1 floor", "2 floors", "3 floors", "Many floors underground"],
+          "options": [
+            "1 floor",
+            "2 floors",
+            "3 floors",
+            "Many floors underground"
+          ],
           "correct": 3,
           "game": "Garten of Banban",
           "fact": "The Garten goes deep underground with many floors, and it gets scarier the deeper you go!"
@@ -174,7 +269,12 @@
         {
           "id": 20,
           "question": "What is the musical area in Poppy Playtime called?",
-          "options": ["Musical Memory", "Dance Floor", "Sound Stage", "Music Room"],
+          "options": [
+            "Musical Memory",
+            "Dance Floor",
+            "Sound Stage",
+            "Music Room"
+          ],
           "correct": 0,
           "game": "Poppy Playtime",
           "fact": "Musical Memory is a puzzle room where you have to copy musical patterns to escape!"
@@ -182,7 +282,12 @@
         {
           "id": 21,
           "question": "Where do you watch the animatronics move?",
-          "options": ["On TV", "Through cameras", "Through windows", "In mirrors"],
+          "options": [
+            "On TV",
+            "Through cameras",
+            "Through windows",
+            "In mirrors"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "You have cameras all over the building so you can see where the animatronics are!"
@@ -190,7 +295,12 @@
         {
           "id": 22,
           "question": "What happens when you run out of power in FNAF?",
-          "options": ["You win", "The lights go out", "The game restarts", "Nothing"],
+          "options": [
+            "You win",
+            "The lights go out",
+            "The game restarts",
+            "Nothing"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "When you run out of power, everything goes dark and Freddy comes to get you!"
@@ -205,7 +315,12 @@
         {
           "id": 23,
           "question": "What color is Huggy Wuggy?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
+          "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Huggy Wuggy is bright blue with a huge smile full of sharp teeth!"
@@ -213,7 +328,12 @@
         {
           "id": 24,
           "question": "What color is Foxy the Pirate?",
-          "options": ["Brown-red", "Blue", "Purple", "Yellow"],
+          "options": [
+            "Brown-red",
+            "Blue",
+            "Purple",
+            "Yellow"
+          ],
           "correct": 0,
           "game": "Five Nights at Freddy's",
           "fact": "Foxy is a reddish-brown color, like a fox! He's also kind of broken and old-looking."
@@ -221,7 +341,12 @@
         {
           "id": 25,
           "question": "What colors are Opila Bird's two heads?",
-          "options": ["Red and blue", "Green and yellow", "Purple and pink", "Black and white"],
+          "options": [
+            "Red and blue",
+            "Green and yellow",
+            "Purple and pink",
+            "Black and white"
+          ],
           "correct": 0,
           "game": "Garten of Banban",
           "fact": "Opila Bird has TWO heads - one is red and one is blue! That's pretty weird!"
@@ -229,7 +354,12 @@
         {
           "id": 26,
           "question": "What color are Mommy Long Legs' arms?",
-          "options": ["Blue", "Pink", "Yellow", "Green"],
+          "options": [
+            "Blue",
+            "Pink",
+            "Yellow",
+            "Green"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Mommy Long Legs is pink all over, including her super stretchy arms!"
@@ -237,7 +367,12 @@
         {
           "id": 27,
           "question": "What is the main color of the Garten building?",
-          "options": ["Red", "Blue", "Colorful/Rainbow", "Gray"],
+          "options": [
+            "Red",
+            "Blue",
+            "Colorful/Rainbow",
+            "Gray"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "The Garten is very colorful like a kindergarten should be - lots of bright colors everywhere!"
@@ -245,7 +380,12 @@
         {
           "id": 28,
           "question": "What color eyes does Golden Freddy have?",
-          "options": ["Blue", "Red", "Black with white dots", "Green"],
+          "options": [
+            "Blue",
+            "Red",
+            "Black with white dots",
+            "Green"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "Golden Freddy is a mysterious golden bear with black eyes that have white pupils. He's very spooky!"
@@ -260,7 +400,12 @@
         {
           "id": 29,
           "question": "Why do you go to Poppy Playtime factory?",
-          "options": ["To find toys", "To find missing workers", "To play games", "To hide"],
+          "options": [
+            "To find toys",
+            "To find missing workers",
+            "To play games",
+            "To hide"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "You get a mysterious letter about the missing workers and go back to investigate what happened!"
@@ -268,7 +413,12 @@
         {
           "id": 30,
           "question": "What is your job in Five Nights at Freddy's?",
-          "options": ["Pizza maker", "Night security guard", "Janitor", "Manager"],
+          "options": [
+            "Pizza maker",
+            "Night security guard",
+            "Janitor",
+            "Manager"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "You're the night guard! You have to watch the cameras and keep the animatronics out of your office until 6 AM."
@@ -276,7 +426,12 @@
         {
           "id": 31,
           "question": "Why are you exploring the Garten?",
-          "options": ["To find your child", "To play games", "To clean it", "To find treasure"],
+          "options": [
+            "To find your child",
+            "To play games",
+            "To clean it",
+            "To find treasure"
+          ],
           "correct": 0,
           "game": "Garten of Banban",
           "fact": "You're looking for your missing child who went to the Garten and never came home!"
@@ -284,7 +439,12 @@
         {
           "id": 32,
           "question": "What happens if an animatronic gets in your office?",
-          "options": ["They wave hello", "They jumpscare you and it's game over", "They dance", "They leave"],
+          "options": [
+            "They wave hello",
+            "They jumpscare you and it's game over",
+            "They dance",
+            "They leave"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "If they get into your office, they give you a BIG jumpscare and you have to start over!"
@@ -292,7 +452,12 @@
         {
           "id": 33,
           "question": "Who is the first boss you fight in Poppy Playtime Chapter 2?",
-          "options": ["Huggy Wuggy", "Mommy Long Legs", "Poppy", "PJ Pug-a-Pillar"],
+          "options": [
+            "Huggy Wuggy",
+            "Mommy Long Legs",
+            "Poppy",
+            "PJ Pug-a-Pillar"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Mommy Long Legs makes you play her games in Chapter 2. If you win, she gets VERY mad!"
@@ -300,7 +465,12 @@
         {
           "id": 34,
           "question": "What do the Garten mascots used to do?",
-          "options": ["Scare kids", "Teach and play with kids", "Guard the building", "Clean"],
+          "options": [
+            "Scare kids",
+            "Teach and play with kids",
+            "Guard the building",
+            "Clean"
+          ],
           "correct": 1,
           "game": "Garten of Banban",
           "fact": "The mascots used to be friendly and teach kids! But something went wrong and they became scary."
@@ -315,7 +485,12 @@
         {
           "id": 35,
           "question": "What can Huggy Wuggy's arms do?",
-          "options": ["Fly", "Stretch very long", "Turn invisible", "Shoot lasers"],
+          "options": [
+            "Fly",
+            "Stretch very long",
+            "Turn invisible",
+            "Shoot lasers"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Huggy Wuggy has arms that can stretch super far to grab you from far away!"
@@ -323,7 +498,12 @@
         {
           "id": 36,
           "question": "What makes Foxy different from other animatronics?",
-          "options": ["He runs very fast", "He flies", "He's invisible", "He's the slowest"],
+          "options": [
+            "He runs very fast",
+            "He flies",
+            "He's invisible",
+            "He's the slowest"
+          ],
           "correct": 0,
           "game": "Five Nights at Freddy's",
           "fact": "Foxy is the fastest animatronic! He runs down the hallway straight to your office!"
@@ -331,7 +511,12 @@
         {
           "id": 37,
           "question": "What can Mommy Long Legs do with her body?",
-          "options": ["Turn into anything", "Stretch and squeeze through small spaces", "Disappear", "Fly"],
+          "options": [
+            "Turn into anything",
+            "Stretch and squeeze through small spaces",
+            "Disappear",
+            "Fly"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "Mommy Long Legs can stretch her body through vents and small spaces to chase you!"
@@ -339,7 +524,12 @@
         {
           "id": 38,
           "question": "What does Jumbo Josh do if he catches you?",
-          "options": ["Gives you a hug", "Chases you", "Crushes you", "Nothing"],
+          "options": [
+            "Gives you a hug",
+            "Chases you",
+            "Crushes you",
+            "Nothing"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "Jumbo Josh is SUPER strong and will crush you with his strength if he catches you!"
@@ -347,7 +537,12 @@
         {
           "id": 39,
           "question": "What can Freddy do on Night 5?",
-          "options": ["Fly", "Teleport", "Run fast", "Move even with lights on"],
+          "options": [
+            "Fly",
+            "Teleport",
+            "Run fast",
+            "Move even with lights on"
+          ],
           "correct": 3,
           "game": "Five Nights at Freddy's",
           "fact": "On Night 5, Freddy gets more active and can move even when you're looking at him!"
@@ -355,7 +550,12 @@
         {
           "id": 40,
           "question": "What does PJ Pug-a-Pillar do?",
-          "options": ["Hides in the dark", "Crawls through vents", "Flies", "Dances"],
+          "options": [
+            "Hides in the dark",
+            "Crawls through vents",
+            "Flies",
+            "Dances"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "PJ Pug-a-Pillar is a caterpillar who crawls through vents and can appear from anywhere!"
@@ -370,7 +570,12 @@
         {
           "id": 41,
           "question": "How many nights do you have to survive in FNAF 1?",
-          "options": ["3 nights", "5 nights", "7 nights", "10 nights"],
+          "options": [
+            "3 nights",
+            "5 nights",
+            "7 nights",
+            "10 nights"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "The main game is 5 nights, but there are bonus nights 6 and 7 that are SUPER hard!"
@@ -378,7 +583,12 @@
         {
           "id": 42,
           "question": "What year did the first FNAF game come out?",
-          "options": ["2010", "2012", "2014", "2016"],
+          "options": [
+            "2010",
+            "2012",
+            "2014",
+            "2016"
+          ],
           "correct": 2,
           "game": "Five Nights at Freddy's",
           "fact": "FNAF 1 came out in 2014 and became super popular really fast!"
@@ -386,7 +596,12 @@
         {
           "id": 43,
           "question": "What is the name of the hour hand in Poppy Playtime?",
-          "options": ["CatNap", "DogDay", "Huggy Wuggy", "Boxy Boo"],
+          "options": [
+            "CatNap",
+            "DogDay",
+            "Huggy Wuggy",
+            "Boxy Boo"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "DogDay is the leader of the Smiling Critters in Chapter 3! He's a sun-themed dog."
@@ -394,7 +609,12 @@
         {
           "id": 44,
           "question": "How many Garten of Banban games are there?",
-          "options": ["2", "4", "6", "8"],
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "As of 2024, there are 6 Garten of Banban games, with more possibly coming!"
@@ -402,7 +622,12 @@
         {
           "id": 45,
           "question": "What happens if you type '1987' in FNAF?",
-          "options": ["Nothing special", "You get a secret minigame", "The game crashes", "You win instantly"],
+          "options": [
+            "Nothing special",
+            "You get a secret minigame",
+            "The game crashes",
+            "You win instantly"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "1987 is an important year in FNAF lore - it's when the 'Bite of '87' happened!"
@@ -410,7 +635,12 @@
         {
           "id": 46,
           "question": "Who made Five Nights at Freddy's?",
-          "options": ["Notch", "Scott Cawthon", "MOB Games", "Toby Fox"],
+          "options": [
+            "Notch",
+            "Scott Cawthon",
+            "MOB Games",
+            "Toby Fox"
+          ],
           "correct": 1,
           "game": "Five Nights at Freddy's",
           "fact": "Scott Cawthon made FNAF all by himself! He made many more FNAF games after the first one."
@@ -418,7 +648,12 @@
         {
           "id": 47,
           "question": "What company made Poppy Playtime?",
-          "options": ["Scott Cawthon", "MOB Games", "Euphoric Brothers", "Roblox"],
+          "options": [
+            "Scott Cawthon",
+            "MOB Games",
+            "Euphoric Brothers",
+            "Roblox"
+          ],
           "correct": 1,
           "game": "Poppy Playtime",
           "fact": "MOB Games is the company that created Poppy Playtime and releases new chapters!"
@@ -426,10 +661,93 @@
         {
           "id": 48,
           "question": "Who made Garten of Banban?",
-          "options": ["Scott Cawthon", "MOB Games", "Euphoric Brothers", "Notch"],
+          "options": [
+            "Scott Cawthon",
+            "MOB Games",
+            "Euphoric Brothers",
+            "Notch"
+          ],
           "correct": 2,
           "game": "Garten of Banban",
           "fact": "The Euphoric Brothers are the team that made Garten of Banban!"
+        },
+        {
+          "id": 49,
+          "question": "What is the name of the main animatronic in Secret of the Mimic?",
+          "options": [
+            "The Mimic",
+            "Glitchtrap",
+            "Burntrap",
+            "Springtrap"
+          ],
+          "correct": 0,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "The Mimic is a dangerous animatronic that can copy voices and behaviors!"
+        },
+        {
+          "id": 50,
+          "question": "Who is the main character you play as in FNAF: Security Breach?",
+          "options": [
+            "Gregory",
+            "Michael",
+            "Vanessa",
+            "Cassie"
+          ],
+          "correct": 0,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "Gregory is a kid who gets trapped in the Pizzaplex and needs Glamrock Freddy's help!"
+        },
+        {
+          "id": 51,
+          "question": "What does the Mimic do that makes it so scary?",
+          "options": [
+            "It flies",
+            "It copies people",
+            "It's invisible",
+            "It controls time"
+          ],
+          "correct": 1,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "The Mimic can copy the voices and movements of people - that's why it's called the Mimic!"
+        },
+        {
+          "id": 52,
+          "question": "Which animatronic helps Gregory in Security Breach?",
+          "options": [
+            "Glamrock Chica",
+            "Monty",
+            "Glamrock Freddy",
+            "Roxy"
+          ],
+          "correct": 2,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "Glamrock Freddy is the only animatronic who wants to help Gregory escape!"
+        },
+        {
+          "id": 53,
+          "question": "What is Cassie looking for in the Secret of the Mimic DLC?",
+          "options": [
+            "Treasure",
+            "Her friend Gregory",
+            "Pizza",
+            "A way out"
+          ],
+          "correct": 1,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "Cassie gets a message from Gregory asking for help, so she goes into the Pizzaplex to find him!"
+        },
+        {
+          "id": 54,
+          "question": "What color is the Mimic's endoskeleton?",
+          "options": [
+            "Silver",
+            "Gold",
+            "Red",
+            "Black"
+          ],
+          "correct": 0,
+          "game": "FNAF: Secret of the Mimic",
+          "fact": "The Mimic has a silver endoskeleton underneath, making it look creepy and robotic!"
         }
       ]
     }

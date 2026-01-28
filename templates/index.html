@@ -19,10 +19,33 @@
             </div>
             <p class="subtitle">Test your knowledge and become a horror game expert!</p>
             <button id="start-btn" class="btn btn-primary">Start Quiz!</button>
+            <button id="settings-btn" class="btn btn-secondary">⚙️ Settings</button>
             <div class="stats-preview">
-                <p><strong>📚 7 Levels</strong> | <strong>⭐ 48 Questions</strong></p>
-                <p>Timer: 30 seconds | Skips: 3 per level</p>
+                <p><strong>📚 7 Levels</strong> | <strong>⭐ 54 Questions</strong></p>
+                <p>Timer: <span id="timer-display">30</span> seconds | Skips: 3 per level</p>
             </div>
+        </div>
+
+        <!-- Settings Screen -->
+        <div id="settings-screen" class="screen">
+            <h2>⚙️ Settings</h2>
+            <div class="settings-container">
+                <div class="setting-option">
+                    <label for="timer-select">Time per question:</label>
+                    <select id="timer-select" class="timer-select">
+                        <option value="15">15 seconds</option>
+                        <option value="30" selected>30 seconds</option>
+                        <option value="45">45 seconds</option>
+                        <option value="60">60 seconds</option>
+                        <option value="90">90 seconds</option>
+                        <option value="120">2 minutes</option>
+                        <option value="999">No timer</option>
+                    </select>
+                </div>
+                <p class="setting-help">💡 Choose more time if you want to read carefully!</p>
+            </div>
+            <button id="save-settings-btn" class="btn btn-primary">Save Settings</button>
+            <button class="btn btn-secondary back-btn">Back to Start</button>
         </div>
 
         <!-- Level Select Screen -->

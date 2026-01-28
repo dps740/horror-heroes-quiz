@@ -9,7 +9,8 @@ class ReadingQuiz {
         this.correctAnswers = 0;
         this.skipsRemaining = 3;
         this.timer = null;
-        this.timeLeft = 30;
+        this.timerDuration = parseInt(localStorage.getItem('timerDuration')) || 30;
+        this.timeLeft = this.timerDuration;
         this.levelStartTime = null;
         this.completedLevels = JSON.parse(localStorage.getItem('completedLevels')) || [];
         this.totalScore = parseInt(localStorage.getItem('totalScore')) || 0;
@@ -21,6 +22,7 @@ class ReadingQuiz {
     async init() {
         await this.loadLevels();
         this.attachEventListeners();
+        this.updateTimerDisplay();
         this.showScreen('title-screen');
     }
     
@@ -39,6 +41,19 @@ class ReadingQuiz {
         document.getElementById('start-btn').addEventListener('click', () => {
             this.showLevelSelect();
         });
+        
+        // Settings button
+        document.getElementById('settings-btn').addEventListener('click', () => {
+            this.showSettings();
+        });
+        
+        // Save settings button
+        document.getElementById('save-settings-btn').addEventListener('click', () => {
+            this.saveSettings();
+        });
+        
+        // Timer select
+        document.getElementById('timer-select').value = this.timerDuration;
         
         // Skip button
         document.getElementById('skip-btn').addEventListener('click', () => {
@@ -84,6 +99,29 @@ class ReadingQuiz {
     showLevelSelect() {
         this.renderLevels();
         this.showScreen('level-select');
+    }
+    
+    showSettings() {
+        this.showScreen('settings-screen');
+    }
+    
+    saveSettings() {
+        const timerSelect = document.getElementById('timer-select');
+        this.timerDuration = parseInt(timerSelect.value);
+        localStorage.setItem('timerDuration', this.timerDuration);
+        this.updateTimerDisplay();
+        this.showScreen('title-screen');
+    }
+    
+    updateTimerDisplay() {
+        const display = document.getElementById('timer-display');
+        if (display) {
+            if (this.timerDuration === 999) {
+                display.textContent = 'No';
+            } else {
+                display.textContent = this.timerDuration;
+            }
+        }
     }
     
     renderLevels() {
@@ -171,7 +209,19 @@ class ReadingQuiz {
     }
     
     startTimer() {
-        this.timeLeft = 30;
+        this.timeLeft = this.timerDuration;
+        
+        // If no timer selected, hide timer and don't start countdown
+        if (this.timerDuration === 999) {
+            const timerContainer = document.getElementById('timer-container');
+            if (timerContainer) timerContainer.style.display = 'none';
+            return;
+        }
+        
+        // Show timer container
+        const timerContainer = document.getElementById('timer-container');
+        if (timerContainer) timerContainer.style.display = 'flex';
+        
         this.updateTimerDisplay();
         
         this.timer = setInterval(() => {
