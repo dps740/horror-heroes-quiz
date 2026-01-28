@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Heroes Quiz</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Title Screen -->
+        <div id="title-screen" class="screen active">
+            <h1>🎮 Horror Heroes Quiz 👻</h1>
+            <h2>How Much Do You Know?</h2>
+            <div class="game-badges">
+                <span class="badge">🏰 Garten of Banban</span>
+                <span class="badge">🧸 Poppy Playtime</span>
+                <span class="badge">🐻 Five Nights at Freddy's</span>
+            </div>
+            <p class="subtitle">Test your knowledge and become a horror game expert!</p>
+            <button id="start-btn" class="btn btn-primary">Start Quiz!</button>
+            <div class="stats-preview">
+                <p><strong>📚 7 Levels</strong> | <strong>⭐ 48 Questions</strong></p>
+                <p>Timer: 30 seconds | Skips: 3 per level</p>
+            </div>
+        </div>
+
+        <!-- Level Select Screen -->
+        <div id="level-select" class="screen">
+            <h2>Choose Your Level</h2>
+            <p class="instruction">Complete each level to unlock the next one!</p>
+            <div id="levels-container"></div>
+            <button class="btn btn-secondary back-btn">Back to Start</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="level-name" class="level-badge"></span>
+                    <span id="question-counter"></span>
+                    <span id="score" class="score">⭐ Score: 0</span>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div id="timer-container" class="timer-container">
+                    <div class="timer-circle">
+                        <span id="timer">30</span>
+                    </div>
+                </div>
+
+                <div id="question-card" class="question-card">
+                    <div class="game-tag"></div>
+                    <h3 id="question-text"></h3>
+                    <div id="options-container" class="options-container"></div>
+                    <div class="quiz-actions">
+                        <button id="skip-btn" class="btn btn-skip">⏭️ Skip (<span id="skips-remaining">3</span>)</button>
+                    </div>
+                </div>
+
+                <div id="result-card" class="result-card hidden">
+                    <div class="result-icon"></div>
+                    <h3 class="result-title"></h3>
+                    <p class="result-fact"></p>
+                    <button id="next-btn" class="btn btn-primary">Next Question →</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Level Complete Screen -->
+        <div id="level-complete" class="screen">
+            <div class="celebration">
+                <h1>🎉 Level Complete! 🎉</h1>
+                <div class="level-stats">
+                    <h2 id="final-level-name"></h2>
+                    <p class="final-score">Final Score: <span id="final-score"></span> ⭐</p>
+                    <p class="accuracy">Accuracy: <span id="accuracy"></span>%</p>
+                    <p class="time-taken">Time: <span id="time-taken"></span></p>
+                </div>
+                <div class="level-complete-actions">
+                    <button id="next-level-btn" class="btn btn-primary">Next Level →</button>
+                    <button class="btn btn-secondary back-to-levels">Back to Levels</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Complete Screen -->
+        <div id="game-complete" class="screen">
+            <div class="celebration">
+                <h1>🏆 You're a Horror Hero! 🏆</h1>
+                <p class="congrats">You completed all 7 levels!</p>
+                <div class="final-stats">
+                    <h3>Your Stats:</h3>
+                    <p>Total Score: <span id="total-score"></span> ⭐</p>
+                    <p>Questions Answered: <span id="total-questions"></span></p>
+                    <p>Overall Accuracy: <span id="overall-accuracy"></span>%</p>
+                </div>
+                <div class="achievements">
+                    <h3>🎖️ Achievements Unlocked:</h3>
+                    <div id="achievements-list"></div>
+                </div>
+                <button class="btn btn-primary" id="restart-btn">Play Again!</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
