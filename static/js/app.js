@@ -15,6 +15,7 @@ class ReadingQuiz {
         this.completedLevels = JSON.parse(localStorage.getItem('completedLevels')) || [];
         this.totalScore = parseInt(localStorage.getItem('totalScore')) || 0;
         this.totalQuestions = parseInt(localStorage.getItem('totalQuestions')) || 0;
+        this.playerName = localStorage.getItem('playerName') || 'Leo';
         
         this.init();
     }
@@ -23,6 +24,7 @@ class ReadingQuiz {
         await this.loadLevels();
         this.attachEventListeners();
         this.updateTimerDisplay();
+        this.updatePlayerNameDisplays();
         this.showScreen('title-screen');
     }
     
@@ -106,11 +108,35 @@ class ReadingQuiz {
     }
     
     saveSettings() {
+        // Save timer setting
         const timerSelect = document.getElementById('timer-select');
         this.timerDuration = parseInt(timerSelect.value);
         localStorage.setItem('timerDuration', this.timerDuration);
+        
+        // Save player name
+        const nameInput = document.getElementById('player-name');
+        this.playerName = nameInput.value.trim() || 'Leo';
+        localStorage.setItem('playerName', this.playerName);
+        
         this.updateTimerDisplay();
+        this.updatePlayerNameDisplays();
         this.showScreen('title-screen');
+    }
+    
+    updatePlayerNameDisplays() {
+        // Update all places where player name appears
+        const titleDisplay = document.getElementById('player-name-display');
+        if (titleDisplay) titleDisplay.textContent = this.playerName;
+        
+        const levelCompleteDisplays = document.querySelectorAll('.player-name-level');
+        levelCompleteDisplays.forEach(el => el.textContent = this.playerName);
+        
+        const gameCompleteDisplays = document.querySelectorAll('.player-name-complete');
+        gameCompleteDisplays.forEach(el => el.textContent = this.playerName);
+        
+        // Update name input in settings
+        const nameInput = document.getElementById('player-name');
+        if (nameInput) nameInput.value = this.playerName;
     }
     
     updateTimerDisplay() {

@@ -748,6 +748,84 @@
           "correct": 0,
           "game": "FNAF: Secret of the Mimic",
           "fact": "The Mimic has a silver endoskeleton underneath, making it look creepy and robotic!"
+        },
+        {
+          "id": 55,
+          "question": "What is the main character trying to do in Finding Frankie?",
+          "options": [
+            "Win a game show",
+            "Escape a haunted house",
+            "Find treasure",
+            "Solve puzzles"
+          ],
+          "correct": 0,
+          "game": "Finding Frankie",
+          "fact": "Finding Frankie is a horror game show where you compete for a prize, but things go very wrong!"
+        },
+        {
+          "id": 56,
+          "question": "Who is Frankie?",
+          "options": [
+            "A friendly rabbit",
+            "The game show host",
+            "A detective",
+            "A pizza chef"
+          ],
+          "correct": 1,
+          "game": "Finding Frankie",
+          "fact": "Frankie is the creepy host of the game show who watches everything you do!"
+        },
+        {
+          "id": 57,
+          "question": "What makes Finding Frankie scary?",
+          "options": [
+            "It's very dark",
+            "The mascots chase you",
+            "It's underwater",
+            "There are zombies"
+          ],
+          "correct": 1,
+          "game": "Finding Frankie",
+          "fact": "The mascots in Finding Frankie aren't friendly - they hunt you through the game show!"
+        },
+        {
+          "id": 58,
+          "question": "What color is Frankie the rabbit?",
+          "options": [
+            "Blue",
+            "Yellow",
+            "Purple",
+            "Pink"
+          ],
+          "correct": 1,
+          "game": "Finding Frankie",
+          "fact": "Frankie is a yellow rabbit mascot with a big creepy smile!"
+        },
+        {
+          "id": 59,
+          "question": "What do you need to collect in Finding Frankie?",
+          "options": [
+            "Coins",
+            "Keys",
+            "Tickets",
+            "Stars"
+          ],
+          "correct": 0,
+          "game": "Finding Frankie",
+          "fact": "You need to collect coins while avoiding the scary mascots!"
+        },
+        {
+          "id": 60,
+          "question": "Where does Finding Frankie take place?",
+          "options": [
+            "A school",
+            "A game show set",
+            "A forest",
+            "A spaceship"
+          ],
+          "correct": 1,
+          "game": "Finding Frankie",
+          "fact": "The game takes place in a twisted game show studio with traps and scary mascots!"
         }
       ]
     }

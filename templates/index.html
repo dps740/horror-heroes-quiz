@@ -11,17 +11,18 @@
         <!-- Title Screen -->
         <div id="title-screen" class="screen active">
             <h1>🎮 Horror Heroes Quiz 👻</h1>
-            <h2>How Much Do You Know?</h2>
+            <h2><span id="player-name-display">Leo</span>'s Adventure!</h2>
             <div class="game-badges">
                 <span class="badge">🏰 Garten of Banban</span>
                 <span class="badge">🧸 Poppy Playtime</span>
                 <span class="badge">🐻 Five Nights at Freddy's</span>
+                <span class="badge">🐰 Finding Frankie</span>
             </div>
             <p class="subtitle">Test your knowledge and become a horror game expert!</p>
             <button id="start-btn" class="btn btn-primary">Start Quiz!</button>
             <button id="settings-btn" class="btn btn-secondary">⚙️ Settings</button>
             <div class="stats-preview">
-                <p><strong>📚 7 Levels</strong> | <strong>⭐ 54 Questions</strong></p>
+                <p><strong>📚 7 Levels</strong> | <strong>⭐ 60 Questions</strong></p>
                 <p>Timer: <span id="timer-display">30</span> seconds | Skips: 3 per level</p>
             </div>
         </div>
@@ -30,6 +31,12 @@
         <div id="settings-screen" class="screen">
             <h2>⚙️ Settings</h2>
             <div class="settings-container">
+                <div class="setting-option">
+                    <label for="player-name">Your Name:</label>
+                    <input type="text" id="player-name" class="name-input" placeholder="Enter your name" value="Leo" maxlength="20">
+                </div>
+                <p class="setting-help">✨ Your name will appear in the game!</p>
+                
                 <div class="setting-option">
                     <label for="timer-select">Time per question:</label>
                     <select id="timer-select" class="timer-select">
@@ -97,7 +104,7 @@
         <!-- Level Complete Screen -->
         <div id="level-complete" class="screen">
             <div class="celebration">
-                <h1>🎉 Level Complete! 🎉</h1>
+                <h1>🎉 <span class="player-name-level"></span> Completed the Level! 🎉</h1>
                 <div class="level-stats">
                     <h2 id="final-level-name"></h2>
                     <p class="final-score">Final Score: <span id="final-score"></span> ⭐</p>
@@ -114,8 +121,8 @@
         <!-- Game Complete Screen -->
         <div id="game-complete" class="screen">
             <div class="celebration">
-                <h1>🏆 You're a Horror Hero! 🏆</h1>
-                <p class="congrats">You completed all 7 levels!</p>
+                <h1>🏆 <span class="player-name-complete"></span> is a Horror Hero! 🏆</h1>
+                <p class="congrats"><span class="player-name-complete"></span> completed all 7 levels!</p>
                 <div class="final-stats">
                     <h3>Your Stats:</h3>
                     <p>Total Score: <span id="total-score"></span> ⭐</p>
